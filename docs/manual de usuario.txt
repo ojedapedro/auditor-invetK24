@@ -1,0 +1,19 @@
+
+## 🚀 Instrucciones para Publicar en GitHub
+
+1. **Crear el repositorio en GitHub:**
+   ```bash
+   # Inicializar git
+   git init
+   
+   # Agregar archivos
+   git add .
+   
+   # Commit inicial
+   git commit -m "Initial commit: Sistema de Control de Inventario K24"
+   
+   # Conectar con repositorio remoto
+   git remote add origin https://github.com/tu-usuario/inventario-auditor-web.git
+   
+   # Subir cambios
+   git push -u origin main

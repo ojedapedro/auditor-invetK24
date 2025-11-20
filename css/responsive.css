@@ -1,0 +1,52 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 56px;
+        left: -100%;
+        width: 250px;
+        height: calc(100vh - 56px);
+        transition: left 0.3s;
+        z-index: 1000;
+    }
+    
+    .sidebar.show {
+        left: 0;
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .stats-card {
+        margin-bottom: 1rem;
+    }
+    
+    .k24-navbar-logo {
+        height: 30px;
+    }
+    
+    .navbar-brand span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        margin: 50px auto;
+        padding: 20px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+    
+    .btn-group .btn {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+    }
+}
